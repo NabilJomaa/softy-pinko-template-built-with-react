@@ -1,0 +1,88 @@
+.pricingTables {
+    position: relative;
+    padding-top: 100px;
+}
+
+.pricingTables::before {
+    content: "";
+    width: 200vw;
+    height: 105%;
+    background: #f2f2fe;
+    position: absolute;
+    left: -30%;
+    top: 0%;
+    z-index: -1;
+}
+
+.plans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.first {
+    grid-column: 1;
+}
+
+.second {
+    grid-column: 2;
+}
+
+.third {
+    grid-column: 3;
+}
+
+@media (max-width:992px) {
+    .plans{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+    }
+
+    .first {
+        grid-column: 1;
+    }
+
+    .second {
+        grid-column: 2;
+    }
+
+    .third {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+
+@media (max-width:768px) {
+    .plans{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+
+    .first {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .second {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .third {
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
+
+.second section {
+    background-color: #ff589e;
+}
+
+.first li:nth-of-type(4),.first li:nth-of-type(5),.first li:nth-of-type(6) {
+    text-decoration: line-through;
+}
+
+.second li:nth-of-type(5),.second li:nth-of-type(6) {
+    text-decoration: line-through;
+}
+

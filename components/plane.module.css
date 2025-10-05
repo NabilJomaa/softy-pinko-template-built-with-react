@@ -1,0 +1,80 @@
+.plane {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 30px 0px 40px 0px;
+    text-align: center;
+}
+
+.plane h3 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.planeHeader {
+    padding-bottom: 10px;
+}
+
+.planeHeader h3 {
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    color: #1e1e1e;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.price {
+    text-align: center;
+    background: #8261ee;
+    border-radius: 20px;
+    width: 80%;
+    margin: 5px auto 40px;
+    padding: 15px 30px 10px;
+}
+
+.price span{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    letter-spacing: 0.88px;
+    padding: 5px 0;
+}
+
+.price span:first-of-type {
+    display: block;
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+}
+
+.plane li {
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7a7a7a;
+}
+
+.plane button {
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+}

@@ -1,0 +1,54 @@
+.contactSection {
+    margin-top: 50px;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.contactSection::before {
+    content: "";
+    z-index: -1;
+    background: #f2f2fe;
+    width: 200vw;
+    height: 105%;
+    position: absolute;
+    top: 0%;
+    left: -30%;
+}
+
+.contactUs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:768px) {
+    .contactUs {
+        grid-template-columns: 1fr;
+    }
+}
+.keep {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.keep h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+}
+
+.contactText {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.contactText p {
+    margin-bottom: 30px;
+}

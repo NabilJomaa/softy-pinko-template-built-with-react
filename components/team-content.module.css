@@ -1,0 +1,51 @@
+.teamContent{
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.teamContent img{
+    margin-top: 20px;
+}
+
+.teamContent p{
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.teamInfo{
+    margin-left: 20px;
+    margin-top: 8px;
+    transition: all 0.3s ease 0s;
+}
+
+.teamContent:hover .teamInfo {
+    transform: translateX(10px);
+}
+
+.teamInfo h3 {
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+}
+
+.teamInfo span {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px;
+}

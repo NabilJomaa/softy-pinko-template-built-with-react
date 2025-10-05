@@ -1,0 +1,30 @@
+.testimonials {
+    padding-top: 25vh;
+    margin-bottom: 100px;
+}
+
+@media (max-width:768px) and (min-width:576px) {
+    .testimonials {
+        margin-top: -10vh;
+        padding-top: 0;
+    }
+}
+
+.teamContents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width:992px) {
+    .teamContents {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media (max-width:768px) {
+    .teamContents {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

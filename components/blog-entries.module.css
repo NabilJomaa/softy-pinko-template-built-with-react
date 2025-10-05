@@ -1,0 +1,31 @@
+.blogEntries {
+    margin-top: 150px;
+}
+
+.blogs {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+@media (max-width:992px) {
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 40px;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .blogs {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr;
+        padding-left: 0;
+        row-gap: 30px;
+    }
+
+}

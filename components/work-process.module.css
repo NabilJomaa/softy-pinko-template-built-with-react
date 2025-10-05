@@ -1,0 +1,87 @@
+.workProcess{
+    position: relative;
+}
+
+.workProcess::before{
+    content: "";
+    margin-top: 60px;
+    background-image: url(../assets/images/work-process-bg.png);
+    background-size: cover;
+    width: 140vw;
+    height: 140%;
+    position: absolute;
+    z-index: -1;
+    top: -20%;
+    left: -20%;
+}
+
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.info {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+}
+
+.info p {
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #fff;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media (max-width:992px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    .workProcess::before{
+        height: 125%;
+    }
+}
+
+@media (max-width:768px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .workProcess::before{
+        margin-top: 170px;
+        height: 90%;
+    }
+}
+
+@media (max-width:576px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .workProcess::before{
+        height: 115%;
+    }
+    .info {
+        padding-top: 0;
+    }
+}
+

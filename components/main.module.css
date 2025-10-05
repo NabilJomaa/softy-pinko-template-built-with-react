@@ -1,0 +1,75 @@
+.home {
+    background-image: url(../assets/images/banner-bg.png);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.welcomeText {
+    width:82vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.welcomeText p , .welcomeText h1{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.welcomeText h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.welcomeText p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+}
+
+.welcomeText button {
+    background-color: #ff589e;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+}
+
+@media (min-width:992px) {
+    .welcomeText {
+        width: 930px;
+    }
+}
+
+@media (min-width:1200px) {
+    .welcomeText {
+        width: 42%;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .welcomeText h1 {
+        font-size: 33px;
+    }
+}

@@ -1,0 +1,20 @@
+.sectionText {
+    text-align: center;
+}
+.sectionText h1 {
+    color: #1e1e1e;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+}
+
+.sectionText p {
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+}
